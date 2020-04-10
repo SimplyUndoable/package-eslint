@@ -1,0 +1,23 @@
+{
+  "name": "@simplyundoable/eslint-plugin",
+  "version": "1.0.1",
+  "description": "Custom eslint rules for SimplyUndoable",
+  "author": "Halvard Mørstad <halvard@simplyundoable.com>",
+  "license": "SEE LICENSE IN LICENSE",
+  "main": "index.js",
+  "scripts": {
+    "test": "eslint --fix-dry-run app/"
+  },
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^2.19.0",
+    "@typescript-eslint/parser": "^2.19.0",
+    "babel-eslint": "^10.0.3",
+    "eslint": "^6.8.0",
+    "eslint-config-react": "^1.1.7",
+    "eslint-plugin-react": "^7.18.3"
+  },
+  "devDependencies": {
+    "react": "^16.12.0",
+    "typescript": "^3.7.5"
+  }
+}
