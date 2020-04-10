@@ -1,12 +1,20 @@
 {
   "name": "@simplyundoable/eslint-plugin",
-  "version": "1.0.1",
+  "version": "1.0.0",
   "description": "Custom eslint rules for SimplyUndoable",
   "author": "Halvard Mørstad <halvard@simplyundoable.com> (https://twitter.com/Halvardssm)",
   "license": "MIT",
   "main": "index.js",
   "scripts": {
     "test": "eslint --fix-dry-run app/"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "repository" : {
+    "type" : "git",
+    "url": "ssh://git@github.com/simplyundoable/package-eslint.git",
+    "directory": "packages/eslint-plugin"
   },
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^2.27.0",
