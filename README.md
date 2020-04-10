@@ -6,7 +6,7 @@
 
 ## Update this package
 
-1. `make publish_patch|minor|major`
+1. `make publish`
 
 ## Usage
 
