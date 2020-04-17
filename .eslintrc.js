@@ -1,5 +1,5 @@
 module.exports = {
-	extends: [
-		'./presets/ts-jsx'
-	]
-}
+  extends: [
+    "./presets/tsx",
+  ],
+};
