@@ -1,6 +1,6 @@
 {
   "name": "@simplyundoable/eslint-plugin",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Custom eslint rules for SimplyUndoable",
   "author": "Halvard Mørstad <halvard@simplyundoable.com> (https://twitter.com/Halvardssm)",
   "license": "MIT",
