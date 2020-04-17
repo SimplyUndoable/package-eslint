@@ -1,12 +1,4 @@
-const template = require('./core')
-
-const config = {
-	files: ['**/*.jsx'],
+module.exports = {
 	plugins: ['react'],
-	extends: ['plugin:react/recommended']
+	extends: ['plugin:react/recommended', './core'],
 }
-
-template.overrides.push(config)
-
-module.exports = template
-
