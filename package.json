@@ -1,6 +1,6 @@
 {
   "name": "@simplyundoable/eslint-plugin",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Custom eslint rules for SimplyUndoable",
   "author": "Halvard Mørstad <halvard@simplyundoable.com> (https://twitter.com/Halvardssm)",
   "license": "MIT",
@@ -17,7 +17,7 @@
     "directory": "packages/eslint-plugin"
   },
   "dependencies": {
-	"@typescript-eslint/eslint-plugin": "^2.27.0",
+    "@typescript-eslint/eslint-plugin": "^2.27.0",
     "@typescript-eslint/parser": "^2.27.0",
     "babel-eslint": "^10.1.0",
     "eslint": "^6.8.0",
