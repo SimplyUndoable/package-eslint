@@ -1,6 +1,6 @@
 {
   "name": "@simplyundoable/eslint-plugin",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Custom eslint rules for SimplyUndoable",
   "author": "Halvard Mørstad <halvard@simplyundoable.com> (https://twitter.com/Halvardssm)",
   "license": "MIT",
@@ -11,25 +11,25 @@
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
   },
-  "repository" : {
-    "type" : "git",
+  "repository": {
+    "type": "git",
     "url": "ssh://git@github.com/simplyundoable/package-eslint.git",
     "directory": "packages/eslint-plugin"
   },
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^2.27.0",
     "babel-eslint": "^10.1.0",
-	"eslint": "^6.8.0",
+    "eslint": "^6.8.0",
     "eslint-config-react": "^1.1.7",
     "eslint-plugin-react": "^7.19.0",
-	"eslint-plugin-react-hooks": "^3.0.0"
+    "eslint-plugin-react-hooks": "^3.0.0"
   },
   "devDependencies": {
-	"@typescript-eslint/parser": "^2.27.0",
+    "@typescript-eslint/parser": "^2.27.0",
     "react": "^16.13.1",
     "typescript": "^3.8.3"
   },
   "peerDependencies": {
-	"@typescript-eslint/parser": "^2.27.0"
+    "@typescript-eslint/parser": "^2.27.0"
   }
 }
